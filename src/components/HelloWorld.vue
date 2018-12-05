@@ -27,10 +27,13 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <i class="icon twitter"></i>
   </div>
 </template>
 
 <script>
+import '../assets/scss/index.scss'
+
 export default {
   name: 'HelloWorld',
   props: {

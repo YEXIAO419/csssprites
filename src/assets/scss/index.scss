@@ -1,0 +1,17 @@
+@import '../sprite/_sprites.scss';
+
+.facebook, .twitter, .google {
+	display: block;	
+}
+
+.facebook {
+    @include sprite($facebook); 
+}
+
+.twitter{ 
+    @include sprite($twitter); 
+}
+
+.google{ 
+    @include sprite($google); 
+}
